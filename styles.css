@@ -59,7 +59,7 @@ tr:hover td {
 
   .animated-png {
     animation: pulse 2s infinite;
-    -webkit-animation:sip 5s 20; 
+    -webkit-animation:sip 5s infinite; 
     animation:sip 5s infinite;
     position: fixed;
     margin-top: 108px;
