@@ -1,0 +1,378 @@
+body {
+  background: url(/images/NewBackground.jpg) no-repeat center/cover;
+  color: #AD8E70;
+}
+
+
+li { 
+  margin-top: 38px;
+  margin-left: -60px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li>a {
+  color: white;
+  text-decoration:none;
+}
+
+h3>a {
+  color: #AD8E70;
+  text-decoration:none;
+}
+/* Define the keyframe animation */
+
+
+hr {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  width: 110px;
+}
+
+table, th, td {
+  font-size: large;
+  border: 1px solid #AD8E70;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #ffffff;
+}
+
+tr:hover td {
+  background-color: rgb(128, 41, 41);
+}
+
+/* !!!!-----------------LOGO ANİMASYONU--------------------!!!! */
+
+@keyframes sip {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  /* Apply the animation to the coffee cup */
+  .animated-png {
+    animation: pulse 2s infinite;
+    -webkit-animation:sip 5s 0; /* Safari and Chrome */
+    animation:sip 5s 20;
+    position: fixed;
+    margin-top: 108px;
+    margin-left: 78px;
+  }
+
+/* !!!!-----------------LOGO ANİMASYONU--------------------!!!! */
+
+  /* Left NavBar with Logo */
+  .nav-box-logo {
+    background: #202738;
+    position: fixed;
+    float: left;
+    /* opacity: 0.95; */
+    height: 120%;
+    /* height: 2527px; */
+    width: 255px;
+    margin-left: -8px;
+    margin-top: -8px;
+  }
+
+  /* Left NavBar with Others */
+  .box-others {
+    position: fixed;
+    float: left;
+    margin-left: 15px;
+    margin-top: 288px;
+  }
+
+  .info-box {
+    background: #FF6E31;
+    position:static;
+    float: right;
+    opacity: 0.7;
+    height: 100%;
+    height: 750px;
+    width: 705px;
+    margin-right: -8px;
+    margin-top: -750px;
+  }
+
+  .headerinfo-text {
+    color: white;
+    font-size: 80px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 60px;
+  }
+
+  .info-text {
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+
+  .top {
+    margin-top: -8px;
+  }
+
+  .menu {
+    background-color: white;
+    margin-left: 247px;
+    margin-right: -8px;
+    /* width: 100%; */
+    height: 1600px;
+
+
+
+  }
+
+  .aboutus {
+    position: relative;
+    opacity: 0.7;
+    background-color: #FF6E31;
+    margin-left: 247px;
+    margin-right: -8px;
+    /* width: 100%; */
+    height: 600px;
+
+  }
+  
+  .side {
+    float: right;
+    margin-right: -8px;
+    width: 45%;
+    height: 600px;
+    background-color: #FFEBB7;
+    /* border-style: none; */
+  }
+
+  .contact {
+    float: left;
+    width: 42.4%;
+    background-color: #FFEBB7;
+    margin-left: 247px;
+    margin-right: -8px;
+    /* width: 100%; */
+    height: 600px;
+    /* border-style: none; */
+
+
+
+  }
+
+
+  .form {
+    margin-top: 75px;
+    margin-left: 100px;
+    background-color: #FFEBB7;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+  }
+
+
+
+
+  .text-aboutus {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+
+  .top-picture {
+    margin-top: -450px;
+    margin-right: -8px; 
+    float:right
+  }
+
+  .product {
+    float: left;
+    margin-left: 430px;
+    margin-top: 50px;
+    color: #AD8E70;
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .zoomin {
+    transform: scale(1);
+    transition: transform 0.7s;
+    
+  }
+  
+
+  .zoomin:hover {
+    transform: scale(1.1);
+    
+  }
+
+  .footer {
+    margin-left: 250px;
+    margin-bottom: 100px;
+  }
+
+
+  /* !!!!-----------------HAREKETLİ RESİMLER--------------------!!!! */
+
+   /* SAĞ TARAF */
+  .right-nanocore {
+    position: relative;
+    width: 30%;
+    display: block;
+    float: right;
+    margin: 0 auto;
+    margin-right: 332.2px;
+    margin-top: 100px;
+  }
+  
+  .right-inmotion {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .right-tengu {
+    position:absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #FFEBB7;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 10px;
+  }
+  
+
+  
+  .right-nanocore:hover .right-tengu {
+    width: 60%;
+    right:0;
+  }
+  
+  .right-text {
+    position: absolute;
+    text-align: center;
+    background-color: #AD8E70;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    top: 12.5%;
+    bottom: 12.5%;
+    left: 12.5%;
+    right: 12.5%;
+    border-radius: 10px;
+  }
+
+  /* SAĞ TARAF */
+
+  /* !!!!--------------------------!!! */
+
+  /* SOL TARAF */
+
+  .left-nanocore {
+    position: relative;
+    width: 30%;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    margin-left: 327px;
+    margin-top: 100px;
+  }
+  
+  .left-inmotion {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .left-tengu {
+    position:absolute;
+    bottom: 0;
+    /* left: 100%; */
+    right: 100%;
+    background-color: #FFEBB7;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 10px;
+  }
+  
+  .left-nanocore:hover .left-tengu {
+    /* opacity: 1; */
+    width: 60%;
+    left:1;
+  }
+  
+  .left-text {
+    position: absolute;
+    text-align: center;
+    background-color: #AD8E70;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    top: 12.5%;
+    bottom: 12.5%;
+    left: 12.5%;
+    right: 12.5%;
+    border-radius: 10px;
+  }
+
+  /* !!!!-----------------HAREKETLİ RESİMLER--------------------!!!! */
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    display: inline-block;
+    width: 100%;
+    background-color: #243763; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 115px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FF6E31;
+  }
+  
+
+  textarea {
+    padding: 10px;
+    width: 500px;
+    box-sizing: border-box;
+  }
+
+
+
+
